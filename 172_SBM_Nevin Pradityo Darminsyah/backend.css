@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(77, 85, 85);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 254, 254);
+ }
+
+ .menu {
+    float: right;
+ }
+
+ nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    border-bottom: 1px solid white;
+ }
+
+ h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+ nav ul li {
+    float: left;
+ }
+
+ nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+ }
+
+ nav ul li a:hover {
+    text-decoration: underline;
+ }
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: silver;
+}
+
+h2 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: 800; 
+   font-size: 45px;
+   margin-bottom: 10px;
+   color: silver;
+   width: 100%;
+   line-height: 20px;
+   margin-left: 10px;
+   margin-top: 5px;
+   text-align: center;
+}
+
+a.tabel-biru {
+    background: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tabel-biru:hover {
+    background: red;
+    text-decoration: none;
+}
+
+a.tabel-pink {
+    background: red;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tabel-pink:hover {
+    background: white;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10px;
+    color: black;
+}
+
+a.tabel-merah {
+    background: red;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact-us {
+    background: black;
+    padding: 50px 0px 50px 0px;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    line-height: 30px;
+}
+
+
+body {
+    background: #001e4d;
+}
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h3 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h4 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0,3s;
+}
+
+.btn:hover:no([disable]) {
+    background: #222;
+    color: white;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+#next-btn {
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aea9a;
+}
+.incorrect {
+    background: red;
+}
