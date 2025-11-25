@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calendar</title>
+  <link rel="stylesheet" href="calestyles.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <h1 class="logo"><a href="index.html">Orion.co</a></h1>
+    <nav class="top-actions">
+      <a href="#">Contact</a>
+      <a href="#">Download</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="calendar" role="application" aria-label="Calendar widget">
+      <div class="calendar-header">
+        <button id="previous" class="nav-btn" aria-label="Bulan sebelumnya"></button>
+        <div id="month" class="month"></div>
+        <button id="next" class="nav-btn" aria-label="Bulan berikutnya"></button>
+      </div>
+
+      <div class="days">
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+        <div class="day">Sun</div>
+      </div>
+
+      <div id="dates" class="dates" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
