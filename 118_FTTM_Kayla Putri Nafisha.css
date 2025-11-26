@@ -1,0 +1,195 @@
+header {
+    background-color: #EEE3C3;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.nama {
+    color: #28345E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+body {
+    background-color: #141A30;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 10px;
+}
+
+.pilih {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.change-mode1 {
+    background-color: palevioletred;
+}
+
+.change-mode2 {
+    background-color: rgb(20, 78, 20);
+}
+
+.change-mode3 {
+    background-color: rgb(209, 71, 1);
+}
+
+.judul-baru {
+    color: rgb(54, 54, 29);
+}
+
+.judul h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.class {
+    background-color: white;
+    color: #141A30;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.calendar {
+    background-color: #141A30;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.kotak {
+    background-color: #EEE3C3;
+    display: inline-block;
+    width: 70%;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.events {
+    font-size: 12px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+}
+
+.teks {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 15px;
+    gap: 20px
+}
+
+.kotak1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 80px;    
+    margin-right: 40px;
+    margin-left: 40px;
+    justify-content: center;
+}
+
+.teksorion {
+    text-align: left;
+    color: white;
+}
+
+.teksorion p {
+    font-size: 15px;
+}
+
+.gambar1 {
+    width: 250px;
+    height: 250px
+}
+
+.action {
+    background-color: #EEE3C3;
+    padding: 8px 8px;
+    border-radius: 10px;
+    color: #141A30;
+}
+
+.kotak2 {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.teks2 {
+    text-align: left;
+    color: white;
+}
+
+.gambar2 {
+    width: 250px;
+    height: 250px;
+}
+
+.another {
+    background-color: #EEE3C3;
+    padding: 8px 8px;
+    border-radius: 10px;
+    color: #141A30;    
+}
+
+.change-mode {
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.teksdoang {
+    padding-bottom: 20px;
+}
+
+.teksdoang1 {
+    padding-bottom: 20px;
+}
+
+.pink {
+    background-color: palevioletred;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+}
+
+.green {
+    background-color: rgb(20, 78, 20);
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+}
+
+.orange {
+    background-color:rgb(209, 71, 1);
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+}
+
+#more {display: none;}
+#more1 {display: none;}
